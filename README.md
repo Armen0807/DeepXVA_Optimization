@@ -8,10 +8,10 @@ Traditional **Nested Monte-Carlo** approaches are computationally prohibitive fo
 ## Results
 Benchmark on 1,000 risk scenarios (Inner simulations: 1,000 paths):
 
-| Method | Compute Time | Speedup |
-| :--- | :--- | :--- |
-| Nested Monte-Carlo | ~45.0s | 1x |
-| **Deep Neural Net** | **0.02s** | **~2200x** |
+| Method | Compute Time | Speedup   |
+| :--- |:-------------|:----------|
+| Nested Monte-Carlo | ~0.1321s     | 1x        |
+| **Deep Neural Net** | **0.0005s| **~226x** |
 
 ## Structure
 - `src/g2_model.py`: Vectorized G2++ engine.
